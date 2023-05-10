@@ -1,0 +1,4 @@
+PORT=8080
+DB_USERNAME=cse18107
+DB_PASSWORD=8s4htdeuDunq75Zo
+DB_URL=mongodb+srv://cse18107:8s4htdeuDunq75Zo@cluster0.jxnceba.mongodb.net/

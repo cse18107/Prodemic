@@ -1,0 +1,13 @@
+.edit-section{
+    position: absolute;
+    z-index: 31;
+    height: 60px;
+    width: 60px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    background-color: rgba(0, 0, 255, 0.274);
+    bottom: 0;
+    right: 0;
+}
