@@ -16,7 +16,7 @@ const UserEdit = () => {
     const [content, setContent] = useState(s);
     const [copyState, setcopyState] = useState(false);
     const [messageApi, contextHolder] = message.useMessage();
-    const text = `https://prodemic.onrender.com/${params.user_name}`;
+    const text = `https://prodemic-project.onrender.com/${params.user_name}`;
 
     const saveHandler = () => {
       dispatch({type: EDIT_USER, user: {user_name: params.user_name, content}});
