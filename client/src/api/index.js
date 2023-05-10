@@ -1,6 +1,6 @@
 import axios from "axios";
 
-axios.defaults.baseURL = "http://localhost:8080/app";
+axios.defaults.baseURL = "https://prodemic.onrender.com/app";
 
 export const createUserApi = async (user) => axios.post('/user',user);
 export const getUserApi = async (user) => axios.get(`/user/${user.user_name}`);
